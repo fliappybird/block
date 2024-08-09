@@ -8,7 +8,7 @@ on:
       - '.devcontainer/**'
       - 'LICENSE'
   schedule:
-    - cron: 0 8 * * *
+    - cron: 8 8 * * 4
   workflow_dispatch:
 
 env:

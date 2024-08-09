@@ -4,7 +4,7 @@
 axutongxue.cn,axutongxue.net,axutongxue.com##div:last-child, div:nth-child(8), #aysduifg
 baidu.com##.tang-pass-qrcode, #passport-login-pop-api:style(display: block !important;visibility: visible !important), .tang-pass-footerBar > p[title$="登录"], .tang-pass-footerBarPhoenix > span.tang-pass-footerBarPhoenixSplit:style(visibility: hidden), .tang-pass-footerBarPhoenixItem:style(left: 6px !important), .fk, #page > strong, #page > a[href^="/s"]:style(height:36px !important)
 bilibili.com##.bpx-player-top-wrap, .video-tag-container, .main-reply-box, .reply-notice, .video-share, .van-popover__reference, #activity_vote, .nav-menu li.nav-item[report-id="big_tab_click"]
-chatgpt.com##.text-sm
+! chatgpt.com##.text-sm
 ddys.pro,ddys.mov##.hthb-row, .cfa_popup, #sajdhfbjwhe, #iaujwnefhw
 developer.mozilla.org##.top-banner, .fallback, .article-footer
 fuliba.net,f.uliba.net,fuliba2023.net,fuliba2024.net##.item, .shares, .style02, .no_webshot, .post-actions, #focusslide

@@ -208,6 +208,9 @@ application:
       - name: '奶酪 网页弹窗过滤规则'
         path: 'https://github.com/runningcheese/RunningCheese-Firefox/raw/master/Restore/Adblock_Popup.txt'
         type: easylist
+      - name: 'Web AdRule'
+        path: 'https://github.com/xndeye/web-ad-rule/raw/master/easylist.txt'
+        type: easylist
 
       - name: 'Cats-Team/AdRules AdBlock List Plus Cats-Team'
         path: 'https://github.com/Cats-Team/AdRules/raw/main/adblock_plus.txt'
