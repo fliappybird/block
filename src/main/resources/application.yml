@@ -26,97 +26,139 @@ application:
     remote:
       - name: 'Adguard Base filter'
         path: 'https://filters.adtidy.org/mac_v2/filters/2.txt'
+        type: easylist
       - name: 'Adguard Tracking Protection filter'
-        path: 'https://filters.adtidy.org/mac_v2/filters/3.txt'           
+        path: 'https://filters.adtidy.org/mac_v2/filters/3.txt'  
+        type: easylist         
       - name: 'Adguard Social Media filter'
         path: 'https://filters.adtidy.org/mac_v2/filters/4.txt'
+        type: easylist
       - name: 'Adguard Experimental filter'
         path: 'https://filters.adtidy.org/mac_v2/filters/5.txt'
+        type: easylist
       - name: 'Adguard Filter unblocking search ads and self-promotions'
         path: 'https://filters.adtidy.org/mac_v2/filters/10.txt'
+        type: easylist
       - name: 'Adguard Mobile Ads filter'
-        path: 'https://filters.adtidy.org/mac_v2/filters/11.txt'                
+        path: 'https://filters.adtidy.org/mac_v2/filters/11.txt'  
+        type: easylist              
       - name: 'Adguard Annyoyances'
-        path: 'https://filters.adtidy.org/mac_v2/filters/14.txt'                 
+        path: 'https://filters.adtidy.org/mac_v2/filters/14.txt'
+        type: easylist                 
       - name: 'Adguard DNS filter'
         path: 'https://filters.adtidy.org/mac_v2/filters/15.txt'
+        type: easylist
       - name: 'Adguard URL Tracking Parameters filter'
-        path: 'https://filters.adtidy.org/mac_v2/filters/17.txt'                        
+        path: 'https://filters.adtidy.org/mac_v2/filters/17.txt'  
+        type: easylist                      
       - name: 'Adguard Chinese filter'
         path: 'https://filters.adtidy.org/mac_v2/filters/224.txt' 
+        type: easylist
     
       - name: 'EasyList Chat Widgets'
         path: 'https://github.com/uBlockOrigin/uAssetsCDN/raw/main/thirdparties/easylist-chat.txt'
+        type: easylist
       - name: 'EasyList Cookie List'
         path: 'https://github.com/uBlockOrigin/uAssetsCDN/raw/main/thirdparties/easylist-cookies.txt'
+        type: easylist
       - name: 'EasyList Newsletter List'
         path: 'https://github.com/uBlockOrigin/uAssetsCDN/raw/main/thirdparties/easylist-newsletters.txt'
+        type: easylist
       - name: 'EasyList Notifications List'
         path: 'https://github.com/uBlockOrigin/uAssetsCDN/raw/main/thirdparties/easylist-notifications.txt'
+        type: easylist
       - name: 'EasyList Other Annoyances List'
         path: 'https://github.com/uBlockOrigin/uAssetsCDN/raw/main/thirdparties/easylist-annoyances.txt'
+        type: easylist
       - name: 'EasyList Social List'
         path: 'https://github.com/uBlockOrigin/uAssetsCDN/raw/main/thirdparties/easylist-social.txt'  
+        type: easylist
       - name: 'Fanboy Annoyances'
         path: 'https://secure.fanboy.co.nz/fanboy-annoyance_ubo.txt'
+        type: easylist
 
       - name: 'uBlock Filters - AD'
         path: 'https://github.com/uBlockOrigin/uAssetsCDN/raw/main/filters/filters.min.txt'
-      - name: 'uBlock Filters - Annoyances'
-        path: 'https://github.com/uBlockOrigin/uAssetsCDN/raw/main/filters/annoyances.txt'
+        type: easylist
       - name: 'uBlock Filters - Cookie Notices'
         path: 'https://github.com/uBlockOrigin/uAssetsCDN/raw/main/filters/annoyances-cookies.txt'
-      - name: 'uBlock Filters - Other Annoyances'
-        path: 'https://github.com/uBlockOrigin/uAssetsCDN/raw/main/filters/annoyances-others.txt'        
+        type: easylist
+      - name: 'uBlock Filters - Annoyances'
+        path: 'https://github.com/uBlockOrigin/uAssetsCDN/raw/main/filters/annoyances.min.txt'
+        type: easylist        
       - name: 'uBlock Filters - Privacy'
-        path: 'https://github.com/uBlockOrigin/uAssetsCDN/raw/main/filters/privacy.min.txt'      
+        path: 'https://github.com/uBlockOrigin/uAssetsCDN/raw/main/filters/privacy.min.txt'  
+        type: easylist    
       - name: 'uBlock Filters - Quick Fixes'
         path: 'https://github.com/uBlockOrigin/uAssetsCDN/raw/main/filters/quick-fixes.min.txt'
+        type: easylist
       - name: 'uBlock Filters - Unbreak'
         path: 'https://ublockorigin.pages.dev/filters/unbreak.min.txt'
+        type: easylist
 
       - name: 'TG-Twilight/AWAvenue-Ads-Rule'
-        path: 'https://github.com/TG-Twilight/AWAvenue-Ads-Rule/raw/main/AWAvenue-Ads-Rule.txt'         
+        path: 'https://github.com/TG-Twilight/AWAvenue-Ads-Rule/raw/main/AWAvenue-Ads-Rule.txt'  
+        type: easylist       
       - name: 'Crystal-RainSlide/Additional Filters CN'
         path: 'https://github.com/Crystal-RainSlide/AdditionalFiltersCN/raw/master/CN.txt'
+        type: easylist
       - name: 'Crystal-RainSlide/Additional Filters Intl'
         path: 'https://github.com/Crystal-RainSlide/AdditionalFiltersCN/raw/master/Intl.txt'
+        type: easylist
       - name: 'Crystal-RainSlide/Additional Filters Other'
         path: 'https://github.com/Crystal-RainSlide/AdditionalFiltersCN/raw/master/RainSlide.txt'
+        type: easylist
       - name: 'dlingyu/ad-wars'
         path: 'https://github.com/jdlingyu/ad-wars/raw/master/hosts'        
+        type: hosts
       - name: 'paulgb/BarbBlock'
         path: 'https://github.com/paulgb/BarbBlock/raw/main/blocklists/ublock-origin.txt'
+        type: easylist
       - name: 'blackmatrix7/Block HTTP DNS'
-        path: 'https://github.com/blackmatrix7/ios_rule_script/raw/release/rule/AdGuard/BlockHttpDNS/BlockHttpDNS.txt'                              
-      - name: 'magnolia1234/bypass-paywalls-clean-filters'
-        path: 'https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt'
+        path: 'https://github.com/blackmatrix7/ios_rule_script/raw/release/rule/AdGuard/BlockHttpDNS/BlockHttpDNS.txt'  
+        type: easylist                            
+      #- name: 'magnolia1234/bypass-paywalls-clean-filters'
+      #  path: 'https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt'
+      #  type: easylist
       - name: 'Dandelion Sprouts Annoyances List'
         path: 'https://github.com/DandelionSprout/adfilt/raw/master/AnnoyancesList'
+        type: easylist
       - name: 'Dandelion Sprouts Staying On The Phone Browser'
-        path: 'https://github.com/DandelionSprout/adfilt/raw/master/stayingonbrowser/Staying%20On%20The%20Phone%20Browser'          
+        path: 'https://github.com/DandelionSprout/adfilt/raw/master/stayingonbrowser/Staying%20On%20The%20Phone%20Browser' 
+        type: easylist         
       - name: 'Dandelion Sprouts Anti-Amazon List for Twitch'
-        path: 'https://github.com/DandelionSprout/adfilt/raw/master/AntiAmazonListForTwitch.txt'          
+        path: 'https://github.com/DandelionSprout/adfilt/raw/master/AntiAmazonListForTwitch.txt' 
+        type: easylist         
       - name: 'Dandelion Sprouts Anti-Elsagate List'
-        path: 'https://github.com/DandelionSprout/adfilt/raw/master/Anti-Elsagate%20List.txt'          
+        path: 'https://github.com/DandelionSprout/adfilt/raw/master/Anti-Elsagate%20List.txt' 
+        type: easylist         
       - name: 'Dandelion Sprouts Browse Websites Without Logging In'
         path: 'https://github.com/DandelionSprout/adfilt/raw/master/BrowseWebsitesWithoutLoggingIn.txt' 
+        type: easylist
       - name: 'Dandelion Sprouts deviantART Quality Art Magnifier'
-        path: 'https://github.com/DandelionSprout/adfilt/raw/master/DeviantARTQualityArtMagnifier.txt'          
+        path: 'https://github.com/DandelionSprout/adfilt/raw/master/DeviantARTQualityArtMagnifier.txt' 
+        type: easylist         
       - name: 'Dandelion Sprouts Empty Padding Remover'
-        path: 'https://github.com/DandelionSprout/adfilt/raw/master/EmptyPaddingRemover.txt'          
+        path: 'https://github.com/DandelionSprout/adfilt/raw/master/EmptyPaddingRemover.txt'
+        type: easylist          
       - name: 'Dandelion Sprouts Extremely Condensed Adblocking List'
-        path: 'https://github.com/DandelionSprout/adfilt/raw/master/ExtremelyCondensedList.txt'          
+        path: 'https://github.com/DandelionSprout/adfilt/raw/master/ExtremelyCondensedList.txt'
+        type: easylist          
       - name: 'Dandelion Sprouts Falukorv List'
-        path: 'https://github.com/DandelionSprout/adfilt/raw/master/FalukorvList.txt'          
+        path: 'https://github.com/DandelionSprout/adfilt/raw/master/FalukorvList.txt' 
+        type: easylist         
       - name: 'Dandelion SproutsI Dont Want to Download Your Browser'
-        path: 'https://github.com/DandelionSprout/adfilt/raw/master/I%20Don%27t%20Want%20to%20Download%20Your%20Browser.txt'          
+        path: 'https://github.com/DandelionSprout/adfilt/raw/master/I%20Don%27t%20Want%20to%20Download%20Your%20Browser.txt' 
+        type: easylist         
       - name: 'Dandelion Sprouts Anti-Asset Flip Shovelware List'
-        path: 'https://github.com/DandelionSprout/adfilt/raw/master/IHateOverpromotedGames.txt'          
+        path: 'https://github.com/DandelionSprout/adfilt/raw/master/IHateOverpromotedGames.txt' 
+        type: easylist         
       - name: 'Dandelion Sprouts Reddit Trash Removal Service'
-        path: 'https://github.com/DandelionSprout/adfilt/raw/master/RedditTrashRemovalService.txt'          
+        path: 'https://github.com/DandelionSprout/adfilt/raw/master/RedditTrashRemovalService.txt'
+        type: easylist          
       - name: 'Dandelion Sprouts Lightweight Anti-Social share List'
         path: 'https://github.com/DandelionSprout/adfilt/raw/master/SocialShareList.txt'          
+        type: easylist
 #      - name: 'Dandelion Sprouts Stop Autoplay On Video Sites'
 #        path: 'https://github.com/DandelionSprout/adfilt/raw/master/StopAutoplayOnYouTube.txt'          
 #      - name: 'Dandelion Sprouts Twitch: Pure Viewing Experience'
@@ -124,66 +166,97 @@ application:
 #      - name: 'Dandelion Sprouts Twitter: Pure Reading Experience'
 #        path: 'https://github.com/DandelionSprout/adfilt/raw/master/TwitterPureReadingExperience.txt'          
       - name: 'Dandelion Sprouts Wikia: Pure Browsing Experience'
-        path: 'https://github.com/DandelionSprout/adfilt/raw/master/WikiaPureBrowsingExperience.txt'         
+        path: 'https://github.com/DandelionSprout/adfilt/raw/master/WikiaPureBrowsingExperience.txt' 
+        type: easylist        
 #      - name: 'Dandelion Sprouts YouTube: Even More Pure Video Experience'
 #        path: 'https://github.com/DandelionSprout/adfilt/raw/master/YouTubeEvenMorePureVideoExperience.txt'         
       - name: 'afwfv/DD-AD'
         path: 'https://github.com/afwfv/DD-AD/raw/main/rule/DD-AD.txt'   
+        type: easylist
       - name: 'Dupontjoy'
         path: 'https://github.com/dupontjoy/Customization/raw/main/Rules/uBlock/ubo-cinglist.txt' 
+        type: easylist
       - name: 'I Dont Care About Cookies'
         path: 'https://www.i-dont-care-about-cookies.eu/abp/'
+        type: easylist
       - name: 'JCleanlist'
-        path: 'https://github.com/jiayiming/jCleanList/raw/master/jCleanList_all.txt'        
+        path: 'https://github.com/jiayiming/jCleanList/raw/master/jCleanList_all.txt'  
+        type: easylist      
       - name: 'Jiekou AD DNS'
         path: 'https://github.com/damengzhu/banad/raw/main/dnslist.txt'
+        type: easylist
       - name: 'Jiekou AD'
-        path: 'https://github.com/damengzhu/banad/raw/main/jiekouAD.txt'                
+        path: 'https://github.com/damengzhu/banad/raw/main/jiekouAD.txt'  
+        type: easylist              
 #     - name: 'Legitimate URL Shortener List'
 #       path: 'https://github.com/DandelionSprout/adfilt/raw/master/LegitimateURLShortener.txt' 
       - name: 'No App Download'
         path: 'https://github.com/Noyllopa/NoAppDownload/raw/master/NoAppDownload.txt' 
+        type: easylist
       - name: 'Peter Lowes Ad and tracking server list'
         path: 'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=0&startday=01&startmonth=01&startyear=2000&mimetype=plaintext'
+        type: easylist
       - name: 'yokoffing annoyance list'
         path: 'https://github.com/yokoffing/filterlists/raw/main/annoyance_list.txt'
+        type: easylist
       - name: 'yokoffing block third party fonts'
-        path: 'https://github.com/yokoffing/filterlists/raw/main/block_third_party_fonts.txt'        
+        path: 'https://github.com/yokoffing/filterlists/raw/main/block_third_party_fonts.txt' 
+        type: easylist       
       - name: '奶酪 网页水印过滤规则'
         path: 'https://github.com/runningcheese/RunningCheese-Firefox/raw/master/Restore/Adblock_Watermark.txt'
+        type: easylist
       - name: '奶酪 网页弹窗过滤规则'
         path: 'https://github.com/runningcheese/RunningCheese-Firefox/raw/master/Restore/Adblock_Popup.txt'
+        type: easylist
 
       - name: 'Cats-Team/AdRules AdBlock List Plus Cats-Team'
         path: 'https://github.com/Cats-Team/AdRules/raw/main/adblock_plus.txt'
+        type: easylist
       - name: 'Cats-Team/AdRules AdBlock DNS List Plus Cats-Team'
         path: 'https://github.com/Cats-Team/AdRules/raw/main/dns.txt'
+        type: easylist
       - name: 'privacy-protection-tools/anti-AD for AdGuard'
         path: 'https://github.com/privacy-protection-tools/anti-AD/raw/master/anti-ad-adguard.txt'
+        type: easylist
       - name: 'HaGeZis Ultimate DNS Blocklist'
         path: 'https://github.com/hagezi/dns-blocklists/raw/main/adblock/ultimate.txt'
+        type: easylist
+      - name: 'HaGeZis Ultimate DNS Blocklist Hosts'
+        path: 'https://github.com/hagezi/dns-blocklists/raw/main/hosts/ultimate.txt'
+        type: hosts
       - name: 'hblock'
         path: 'https://hblock.molinero.dev/hosts_adblock.txt'
+        type: easylist
+      - name: 'hblock DNS'
+        path: 'https://hblock.molinero.dev/hosts'
+        type: hosts
       - name: 'HalfLife ad block list'
         path: 'https://github.com/o0HalfLife0o/list/raw/master/ad-pc.txt'
+        type: easylist
       - name: 'Oisd Big'
         path: 'https://big.oisd.nl/'
+        type: easylist
       - name: 'XXXKiller'
-        path: 'https://github.com/DoingDog/XXKiller/raw/main/n.txt'        
+        path: 'https://github.com/DoingDog/XXKiller/raw/main/n.txt'
+        type: easylist        
       - name: 'yhosts'
         path: 'https://github.com/VeleSila/yhosts/raw/master/hosts.txt'
+        type: hosts
 #     - name: '1Host Pro'
 #       path: 'https://o0.pages.dev/Pro/adblock.txt'
       - name: '217heidai/adblockfilters'
         path: 'https://github.com/217heidai/adblockfilters/raw/main/rules/adblockfilters.txt'
       - name: '217heidai/adblockfilters DNS'
         path: 'https://github.com/217heidai/adblockfilters/raw/main/rules/adblockdns.txt'
-      - name: '8680/GOODBYEADS Allow'
-        path: 'https://github.com/8680/GOODBYEADS/raw/master/allow.txt'
+      #- name: '8680/GOODBYEADS Allow'
+      #  path: 'https://github.com/8680/GOODBYEADS/raw/master/allow.txt'
+      #  type: easylist
       - name: '8680/GOODBYEADS DNS'
         path: 'https://github.com/8680/GOODBYEADS/raw/master/dns.txt'
+        type: easylist
       - name: '8680/GOODBYEADS'
-        path: 'https://github.com/8680/GOODBYEADS/raw/master/rules.txt'                        
+        path: 'https://github.com/8680/GOODBYEADS/raw/master/rules.txt' 
+        type: easylist                       
 
     #本地规则文件
     local:
@@ -196,20 +269,19 @@ application:
     #文件头配置，将自动作为注释添加至每个规则文件开始
     #可使用占位符 ${name}、${type}、${desc} 以及 ${date} (当前日期)
     file_header: |
-      AdBlock  - ${type}
+      AdBlock - ${type}
       Last Modified: ${date}
-      Homepage: https://github.com/fordes123/ad-filters-subscriber/
 
     path: rule #输出规则文件的路径，支持绝对/相对路径
     #输出规则文件列表 （！注意缩进，且每个类型只能输出一个文件）
     files:
-      - name: easylist.txt     #必要参数: 文件名
-        type: easylist         #必要参数: 文件类型: easylist、dnsmasq、clash、smartdns、hosts
-        desc: 'ADFS EasyList'  #可选参数: 文件描述，可在file_header中通过 ${} 中使用
-        filter:
-          - basic              #基本规则，不包含任何控制、匹配符号, 可以转换为 hosts
-          - wildcard           #通配规则，仅使用通配符
-          - unknown            #其他规则，如使用了正则、高级修饰符号等，这表示目前无法支持
+      #- name: easylist.txt     #必要参数: 文件名
+      #  type: easylist         #必要参数: 文件类型: easylist、dnsmasq、clash、smartdns、hosts
+      #  desc: 'ADFS EasyList'  #可选参数: 文件描述，可在file_header中通过 ${} 中使用
+      #  filter:
+      #    - basic              #基本规则，不包含任何控制、匹配符号, 可以转换为 hosts
+      #    - wildcard           #通配规则，仅使用通配符
+      #    - unknown            #其他规则，如使用了正则、高级修饰符号等，这表示目前无法支持
 
       - name: dns.txt
         type: easylist
